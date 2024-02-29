@@ -1,0 +1,134 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(/assets/img/sfondo.png);
+}
+/* HEADER */
+header {
+  height: 40%;
+  width: 40%;
+  margin: 4% auto;
+}
+img {
+  width: 100%;
+}
+#Navigation {
+  display: flex;
+  background-color: rgb(35, 138, 190);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+#Navigation h2 {
+  color: white;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+#Navigation p {
+  color: white;
+  padding-top: 4%;
+  font-size: 1.4em;
+  font-weight: 700;
+  justify-content: center;
+}
+/* MAIN */
+main {
+  height: 40%;
+  width: 40%;
+  margin: 4% auto;
+  background-color: white;
+  border: 1px rgb(235, 235, 235) solid;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+#section h1 {
+  font-weight: 500;
+  font-size: 3em;
+  margin-left: 15px;
+  margin-top: 10%;
+}
+#section h2 {
+  color: grey;
+  font-weight: 200;
+  font-size: 1.5em;
+  margin-top: 4%;
+  margin-left: 15px;
+}
+#section p,
+ul,
+ol {
+  font-size: 1.4em;
+  font-weight: 200;
+  margin-top: 4%;
+  margin-left: 15px;
+}
+#section li {
+  margin-top: 2%;
+}
+ul {
+  list-style: disc;
+  margin-left: 7%;
+}
+#section ul span {
+  background-color: rgb(235, 235, 235);
+  border: 1px black solid;
+  border-radius: 10%;
+}
+#section p span {
+  color: rgb(129, 11, 192);
+  font-weight: 500;
+}
+
+#section ol {
+  list-style: decimal;
+  margin-left: 7%;
+}
+
+.grey {
+  background-color: rgb(235, 235, 235);
+}
+
+#divisore {
+  border: 1px rgb(9, 9, 184) solid;
+  width: 90%;
+  margin: 4%;
+}
+h3 {
+  font-weight: 700;
+  font-size: 1.3em;
+  margin-top: 6%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+/* TABELLE */
+table {
+  width: 90%;
+  margin: 0 4%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  font-family: "Roboto", sans-serif;
+}
+th {
+  padding: 20px;
+  background-color: rgb(81, 75, 204);
+  color: white;
+}
+td {
+  padding: 20px 0 20px 30px;
+}
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
